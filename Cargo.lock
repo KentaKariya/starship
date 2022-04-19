@@ -1950,8 +1950,7 @@ dependencies = [
 [[package]]
 name = "starship-battery"
 version = "0.7.9"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "3336198ad004af4447ae69be4f4e562c26814570f8f0c1e37858405a294e015d"
+source = "git+https://github.com/KentaKariya/rust-battery.git?branch=starship-3849#f1fa1128fbfef52b52d2a78a829c521fa62ee687"
 dependencies = [
  "cfg-if 1.0.0",
  "core-foundation",
@@ -1960,6 +1959,7 @@ dependencies = [
  "mach",
  "nix",
  "num-traits",
+ "serde",
  "uom",
  "winapi",
 ]

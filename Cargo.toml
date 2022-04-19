@@ -66,7 +66,8 @@ sha-1 = "0.10.0"
 shadow-rs = "0.11.0"
 # battery is optional (on by default) because the crate doesn't currently build for Termux
 # see: https://github.com/svartalf/rust-battery/issues/33
-starship-battery = { version = "0.7.9", optional = true }
+#starship-battery = { version = "0.7.9", optional = true }
+starship-battery = { git = "https://github.com/KentaKariya/rust-battery.git", branch = "starship-3849", optional = true }
 strsim = "0.10.0"
 sys-info = "0.9.1"
 terminal_size = "0.1.17"
